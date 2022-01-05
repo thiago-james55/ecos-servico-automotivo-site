@@ -1,14 +1,14 @@
 @font-face {
 
     font-family: 'Bradley';
-    src: url("../_fontes/bradley-hand-itc.ttf");
+    src: url("../fontes/bradley-hand-itc.ttf");
     
 }
 
 @font-face {
 
     font-family: 'Edwardian';
-    src: url("../_fontes/edwardian-script-itc.ttf");
+    src: url("../fontes/edwardian-script-itc.ttf");
     font-weight: bold;
 }
 
