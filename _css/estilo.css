@@ -1,0 +1,274 @@
+@font-face {
+
+    font-family: 'Bradley';
+    src: url("../_fontes/bradley-hand-itc.ttf");
+    
+}
+
+@font-face {
+
+    font-family: 'Edwardian';
+    src: url("../_fontes/edwardian-script-itc.ttf");
+    font-weight: bold;
+}
+
+body {
+
+    background-color: white;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    
+}
+
+a {
+
+    text-decoration: none;
+}
+
+div#interface {
+
+    width: 1060px;
+    margin: auto auto auto auto;
+    
+     
+    
+
+}
+
+header#cabecalho {
+
+    height: 200px;
+    border-bottom: 1px solid black;
+     
+    
+    
+}
+
+
+header#cabecalho img#icone {
+    
+    position: absolute;
+    right: 20px;    
+    top: 80px;
+    width: 350px;
+}
+
+header#cabecalho h1{
+
+    font-family: 'Edwardian';
+    font-size: 140px;
+    font-variant: normal;
+    color: red;
+    margin-top: 0px;
+    margin-bottom: -35px;
+    
+    
+}
+
+header#cabecalho h2{
+
+    font-family: 'Bradley';
+    margin-top: 0;
+    margin-left: 50px;
+    font-size: 40px;
+    color:black;
+    
+
+
+        
+    
+}
+
+nav#menu {
+
+    display: block;
+
+
+}
+
+nav#menu h1 {
+
+    display: none;
+
+    
+}
+
+nav#menu ul {
+
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    
+}
+
+nav#menu li {
+
+    display: inline-block;
+    background-color: red;
+    padding: 10px;
+    margin: 4px;
+    border: outset;
+    border-color: red;
+    font-size: 10pt;
+
+    
+}
+
+nav#menu li:hover {
+
+    background-color: black;
+
+    
+}
+
+nav#menu a {
+
+    color: white;
+    text-decoration: none;
+
+    
+}
+
+nav#menu a:hover {
+
+    color: red;
+    
+    
+}
+
+section#corpo {
+
+    width: 500px;
+    float: left;
+    border-right: 1px solid black;
+    padding: 15px;
+
+}
+
+
+section#corpo h2 {
+
+    color: white;
+    background: red;
+    border: 1pt solid black;
+    padding: 5px;
+    font-size: 15pt;
+    text-align: center;
+
+}
+
+section#corpo-servicos {
+
+    width: 500px;
+    float: left;
+    border-right: 1px solid black;
+    font-size: 12pt;
+    padding: 15px;
+
+}
+
+
+section#corpo-servicos h2 {
+
+    color: white;
+    background: red;
+    border: 1pt solid black;
+    padding: 5px;
+    font-size: 15pt;
+    text-align: center;
+
+}
+
+section#localizacao {
+
+    padding: 15px;
+    
+
+}
+
+
+img#foto {
+
+    width: 500px;
+
+}
+
+img.servicos {
+
+    width: 500px;
+
+}
+
+
+aside#lateral {
+
+    width: 500px;
+    display: block;
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+
+}
+
+
+aside#lateral h2 {
+    
+    color: white;
+    background: red;
+    border: 1pt solid black;
+    padding: 5px;
+    font-size: 15pt;
+    text-align: center;
+
+}
+
+aside#lateral-servicos {
+
+    width: 500px;
+    display: block;
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+
+}
+
+
+aside#lateral-servicos h2 {
+    
+    color: white;
+    background: red;
+    border: 1pt solid black;
+    padding: 5px;
+    font-size: 15pt;
+    text-align: center;
+
+}
+
+img#whatsapp {
+
+    position: sticky;
+    width: 80px;
+    bottom: 20px;
+    padding-right: 5%;
+    float: right;
+    
+
+}
+
+footer#rodape {
+
+    border-top: 1px solid black;
+    clear: both;
+    height: 40px;
+                
+
+}
+
+footer#rodape p {
+
+    text-align: center;
+    font-size: 13pt;
+
+}
