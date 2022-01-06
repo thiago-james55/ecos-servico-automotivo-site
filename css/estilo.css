@@ -1,3 +1,21 @@
+@media screen and (max-width:720px){
+
+    img#whatsapp {
+
+        position: sticky;
+        width: 1000px;
+        bottom: 20px;
+        padding-right: 5%;
+        float: right;
+        
+    
+    }
+
+    
+
+}
+
+
 @font-face {
 
     font-family: 'Bradley';
@@ -23,6 +41,7 @@ body {
 a {
 
     text-decoration: none;
+    color: red;
 }
 
 div#interface {
@@ -72,11 +91,7 @@ header#cabecalho h2{
     margin-left: 50px;
     font-size: 40px;
     color:black;
-    
-
-
         
-    
 }
 
 nav#menu {
@@ -99,7 +114,7 @@ nav#menu ul {
     text-transform: uppercase;
     position: absolute;
     top: -10px;
-    right: 10px;
+    right: 1%;
     
 }
 
@@ -111,17 +126,23 @@ nav#menu li {
     margin: 4px;
     border: outset;
     border-color: red;
-    font-size: 10pt;
+    font-size: 100%;
 
     
+}
+
+nav#menu li:hover a{
+
+    color: red;
+            
 }
 
 nav#menu li:hover {
 
-    background-color: black;
-
-    
+    background: white;
+            
 }
+
 
 nav#menu a {
 
@@ -131,7 +152,7 @@ nav#menu a {
     
 }
 
-nav#menu a:hover {
+nav#menu a:hover{
 
     color: red;
     
@@ -147,6 +168,38 @@ section#corpo {
 
 }
 
+section#corpo-servicos {
+
+    width: 500px;
+    float: left;
+    border-right: 1px solid black;
+    font-size: 12pt;
+    padding: 15px;
+
+}
+
+section#corpo-contato {
+
+      
+    border: 1px solid black;
+    font-size: 15pt;
+    padding: 15px;
+    text-align: center;
+    
+
+}
+
+section#corpo-trabalhe-conosco {
+
+      
+    border: 1px solid black;
+    font-size: 15pt;
+    padding: 15px;
+    text-align: center;
+    
+
+}
+
 
 section#corpo h2 {
 
@@ -156,16 +209,6 @@ section#corpo h2 {
     padding: 5px;
     font-size: 15pt;
     text-align: center;
-
-}
-
-section#corpo-servicos {
-
-    width: 500px;
-    float: left;
-    border-right: 1px solid black;
-    font-size: 12pt;
-    padding: 15px;
 
 }
 
@@ -181,10 +224,106 @@ section#corpo-servicos h2 {
 
 }
 
+section#corpo-contato h2 {
+
+    color: white;
+    background: red;
+    border: 1pt solid black;
+    padding: 5px;
+    font-size: 15pt;
+    text-align: center;
+
+}
+
+section#corpo-contato a {
+
+    text-decoration: none;
+    color: red;
+
+}
+
+section#corpo-trabalhe-conosco h2 {
+
+    color: white;
+    background: red;
+    border: 1pt solid black;
+    padding: 5px;
+    font-size: 15pt;
+    text-align: center;
+
+}
+
+
+
+section#corpo-trabalhe-conosco ul#habilidades {
+
+    text-align: left;
+    
+    list-style-position: outside;
+    
+    
+}
+
 section#localizacao {
 
-    padding: 15px;
+    border: 1px solid black;
     
+
+}
+
+/* Hover h2 home */
+
+section#corpo h2:hover {
+
+    color: red;
+    background: white;
+    border: 1pt solid black;
+
+}
+
+aside#lateral h2:hover {
+
+    color: red;
+    background: white;
+    border: 1pt solid black;
+
+}
+
+/* Hover h2 serviços */
+
+section#corpo-servicos h2:hover {
+
+    color: red;
+    background: white;
+    border: 1pt solid black;
+
+}
+
+aside#lateral-servicos h2:hover {
+
+    color: red;
+    background: white;
+    border: 1pt solid black;
+
+}
+
+/* Hover h2 contato */
+
+section#corpo-contato h2:hover {
+
+    color: red;
+    background: white;
+    border: 1pt solid black;
+
+}
+
+/* Hover h2 trabalhe conosco */
+
+section#corpo-trabalhe-conosco h2:hover {
+
+    color: red;
+    background: white;
+    border: 1pt solid black;
 
 }
 
@@ -195,9 +334,26 @@ img#foto {
 
 }
 
+
+img#foto-trabalhe {
+
+    width: 800px;
+
+}
+
 img.servicos {
 
     width: 500px;
+
+}
+
+img.contato {
+
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 
 }
 
@@ -249,7 +405,7 @@ aside#lateral-servicos h2 {
 img#whatsapp {
 
     position: sticky;
-    width: 80px;
+    width: 100px;
     bottom: 20px;
     padding-right: 5%;
     float: right;
@@ -269,6 +425,6 @@ footer#rodape {
 footer#rodape p {
 
     text-align: center;
-    font-size: 13pt;
+    font-size: 15pt;
 
 }
